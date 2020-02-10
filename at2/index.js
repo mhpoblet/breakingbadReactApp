@@ -26,7 +26,7 @@ async function quickstart() {
 
   
   console.log(now.description);
-  app.get('/', (req, res) => res.send(now));
+  app.get('/', (req, res) => res.send(now.description));
 }
 
 
